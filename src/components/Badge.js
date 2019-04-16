@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./styles/Badge.css";
-import confLogo from "../images/badge-header.svg";
+import confLogo from "../images/logo.svg";
 
 //Todo componente es una clase y extiende de React.Component
 class Badge extends React.Component {

@@ -1,0 +1,19 @@
+.Badges__list {
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 10px 0 rgba(1, 1, 1, 1);
+  box-shadow: 2px 2px 10px 0 rgba(1, 1, 1, 1);
+  margin-bottom: 10px;
+}
+
+.Badges__avatarImg {
+  text-align: center;
+}
+
+.Badges__avatarImg img {
+  border-radius: 100%;
+}
+
+.Badges__twitter {
+  color: rgb(29, 60, 126);
+  margin-bottom: 0px;
+}

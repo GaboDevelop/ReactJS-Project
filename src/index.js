@@ -13,7 +13,9 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
 //importando un componente
-import Badge from "./components/Badge";
+//import Badge from "./components/Badge";
+//import BadgeNew from "./pages/BadgeNew";
+import Badges from "./pages/Badges";
 //Importando estilos globales
 import "./global.css";
 
@@ -44,7 +46,7 @@ const container = document.getElementById("app");
 //ReactDOM.render(_que_ , _donde_)
 //ReactDOM.render(element, container);
 //ReactDOM.render(jsx, container);
-ReactDOM.render(
+/*ReactDOM.render(
   <Badge
     firstname="Lilly"
     avatarUrl="https://s.gravatar.com/avatar/81093cc55c7768e60d3f6138098f6902?s=80"
@@ -53,4 +55,6 @@ ReactDOM.render(
     twitter="elgabish"
   />,
   container
-);
+);*/
+
+ReactDOM.render(<Badges />, container);
