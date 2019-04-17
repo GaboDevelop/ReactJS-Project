@@ -1,0 +1,20 @@
+.home {
+  height: 800px;
+  background-image: url("../../images/stars.svg");
+  background-color: #000000;
+}
+
+.content-slider {
+  padding-top: 100px;
+  color: #ffffff;
+}
+
+.infoContent {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-primary {
+  font-weight: bold;
+}
