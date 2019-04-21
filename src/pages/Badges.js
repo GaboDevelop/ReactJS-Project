@@ -19,7 +19,7 @@ class Badges extends React.Component {
 
   componentDidMount() {
     this.fetchData();
-    //cambio para ver si mis crendenciales de git cambiaron y no son las de oscar
+    //cambio para ver si mis crendenciales de git cambiaron y no son las de oscar sas
     this.intervalId = setInterval(this.fetchData, 5000);
   }
 
